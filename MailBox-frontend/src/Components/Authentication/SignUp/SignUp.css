@@ -1,0 +1,22 @@
+
+.input-width{
+    width: 80%;
+    align-items: center;
+    
+}
+
+.container-style{
+    background-color: rgb(228, 228, 228);
+    width: 50%;
+    border-radius: 2%;
+}
+
+.login-btn{
+    width: 80%;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    color: black;
+    
+}
+
+
