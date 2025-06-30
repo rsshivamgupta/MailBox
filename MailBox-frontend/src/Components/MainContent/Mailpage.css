@@ -1,0 +1,65 @@
+/* Container background and padding */
+.container {
+  /* background: linear-gradient(145deg, #e0e0e0, #ffffff); */
+    background: linear-gradient(145deg, #d3d67a, #608142);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.form-floating > .form-control {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #fafafa;
+  transition: border 0.3s ease-in-out;
+}
+
+.form-floating > .form-control:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+  background-color: #fff;
+}
+
+/* Editor wrapper */
+.wrapperClassName {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid #dcdcdc;
+}
+
+/* Editor content area */
+.editorClassName {
+  min-height: 200px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Toolbar */
+.toolbarClassName {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+/* Send button styling */
+button[type="submit"] {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: white;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 14px rgba(106, 17, 203, 0.4);
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  transform: scale(1.03);
+}

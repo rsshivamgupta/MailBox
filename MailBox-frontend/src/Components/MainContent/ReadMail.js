@@ -10,6 +10,7 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { useSelector } from "react-redux";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import "./Readmail.css";
 
 const YourComponent = (props) => {
   const history = useHistory();

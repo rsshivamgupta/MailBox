@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { dataAction } from "../../store";
 import SentMail from "../MainContent/SentMail";
 //import "bootstrap/dist/css/bootstrap.min.css";
+import "./Homeheader.css"
 
 const HomeHeader = () => {
   //const [selectedTab, setSelectedTab] = useState("inbox");

@@ -11,6 +11,7 @@ import getTokenHeaders, { baseUrl } from "../../Utils/utils";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { useDispatch } from "react-redux";
 import { authAction } from "../../store";
+import "./Mailpage.css";
 
 export default (props) => {
   const history = useHistory();
@@ -111,7 +112,7 @@ export default (props) => {
           </div>
         </Row>
 
-        <Container>
+        <Container className="d-flex justify-content-center">
           <Button type="submit">Send</Button>
         </Container>
       </Form>
